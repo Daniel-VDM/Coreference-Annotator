@@ -1,25 +1,25 @@
 # Antecedent Coreference Resolver
 
-This script finds the antecedent for each pronoun using a Logistic Regression Model.
-
-This was originally a project for [David Bamman's](http://people.ischool.berkeley.edu/~dbamman/) Natural Language Processing Course (Info 159/259 - Fa18) at UC Berkeley 
+**This script finds the antecedent for each pronoun in a given dataframe input using a Logistic Regression Model.**
 
 ## How it works
 
 The script takes in a `.csv` file that is formatted as follows:
 
 <p align="center">
-  <img src="img/dataFmtIn.png" width="950">
+  <img src="img/dataFmtIn.png" width="500">
 </p>
 
-The `.csv` file is converted into a Pandas data frame before it is passed into the antecedent predictor. Note that the antecedent predictor makes a coreference prediction for each word that has a part of speech tag of `PRP` or `$PRP`. Also, note that the antecedent prediction is a mention id and that each prediction is stored in its `mention_ids` column of each pronoun in the said data frame. Once all of the pronouns have their predicted antecedents, the data frame is then converted back to a `.csv` file and outputted. 
+The `.csv` file is converted into a Pandas dataframe before it is passed into the antecedent predictor. Note that the antecedent predictor makes a coreference prediction for each word that has a part of speech tag of `PRP` or `$PRP`. Also, note that the antecedent prediction is a mention id and that each prediction is stored in its `mention_ids` column of each pronoun in the said dataframe. Once all of the pronouns have their predicted antecedents, the dataframe is then converted back to a `.csv` file and outputted. 
 
 ### Input formatting
 * The input file must be named `test.coref.data.txt` and must have the format mention above.
 * The training data file must be named `train.coref.data.txt` and must have the following format:
+
 <p align="center">
-  <img src="img/dataFmtTrain.png" width="950">
+  <img src="img/dataFmtTrain.png" width="500">
 </p>
+
 * The dev data file must be named `dev.coref.data.txt` and must have the same format as the training data.
 
 > Note that `entity_ids` are the true entity ids from the given data set.
@@ -27,7 +27,7 @@ The `.csv` file is converted into a Pandas data frame before it is passed into t
 ## Sample execution
 Note the filenames required for the input (it is mentioned above).
 
-To run the script simply type `python resolver.py`
+To run the script simply execute `python resolver.py` in the terminal.
 
 You will get the following:
 ```
@@ -70,5 +70,6 @@ My implementation had a test accuracy of about 69 percent.
 
 A write up documenting my implementation can be found [here](/write-up.pdf)
  
-
+## Credits
+This was originally a project that I did for [David Bamman's](http://people.ischool.berkeley.edu/~dbamman/) Natural Language Processing Course (Info 159/259 - Fa18) at UC Berkeley.
 
