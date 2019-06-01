@@ -68,7 +68,7 @@ A naive implementation of just using the closest antecedent would yield a test d
 
 My implementation had a test accuracy of about 69 percent.
 
-## Implementation Details
+## Implementation details
 
 A write up explaining my implementation can be found [here](/write-up.pdf).
  
