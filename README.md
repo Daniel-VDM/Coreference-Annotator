@@ -68,7 +68,7 @@ My implementation had a test accuracy of about 69 percent.
 
 ## Implementation Details
 
-A write up documenting my implementation can be found [here](/write-up.pdf)
+A write up explaining my implementation can be found [here](/write-up.pdf).
  
 ## Credits
 This was originally a project that I did for [David Bamman's](http://people.ischool.berkeley.edu/~dbamman/) Natural Language Processing Course (Info 159/259 - Fa18) at UC Berkeley.
