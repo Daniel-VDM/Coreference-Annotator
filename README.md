@@ -2,6 +2,8 @@
 
 **This script finds the antecedent for each pronoun in a given dataframe using a Logistic Regression Model.**
 
+*Dependencies:* Scipy, Sklearn and NLTK
+
 ## How it works
 
 The script takes in a `.csv` file that is formatted as follows (columns separated by '\t' characters):
