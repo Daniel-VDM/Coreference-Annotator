@@ -4,7 +4,7 @@
 
 ## How it works
 
-The script takes in a `.csv` file that is formatted as follows:
+The script takes in a `.csv` file that is formatted as follows (columns separated by '\t' characters):
 
 <p align="center">
   <img src="img/dataFmtIn.png" width="500">
@@ -14,7 +14,7 @@ The `.csv` file is converted into a Pandas dataframe before it is passed into th
 
 ### Input formatting
 * The input file must be named `test.coref.data.txt` and must have the format mention above.
-* The training data file must be named `train.coref.data.txt` and must have the following format:
+* The training data file must be named `train.coref.data.txt` and must have the following format (columns separated by '\t' characters):
 
 <p align="center">
   <img src="img/dataFmtTrain.png" width="500">
