@@ -1,4 +1,4 @@
-# Coreference Resolver
+# Coreference Annotator
 
 **This script finds the antecedent for each pronoun in a given data set using a Logistic Regression Model.**
 
