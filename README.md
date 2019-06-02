@@ -1,6 +1,6 @@
 # Antecedent Coreference Resolver
 
-**This script finds the antecedent for each pronoun in a given dataframe using a Logistic Regression Model.**
+**This script finds the antecedent for each pronoun in a given data set using a Logistic Regression Model.**
 
 *Dependencies:* Scipy, Sklearn and NLTK
 
