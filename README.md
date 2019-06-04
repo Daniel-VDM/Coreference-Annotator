@@ -1,6 +1,6 @@
 # Coreference Annotator
 
-**This script finds the antecedent for each pronoun in a given data set using a Logistic Regression Model.**
+**This is a script that annotates the antecedent for each pronoun in a given data set using a Logistic Regression Model.**
 
 *Dependencies:* Scipy, Sklearn and NLTK
 
