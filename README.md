@@ -66,7 +66,7 @@ Dev Accuracy (DataFrame Replaced): 0.7050
 
 A naive implementation of just using the closest antecedent would yield a test data accuracy of 53 percent. The goal of this project was to dramatically improve the accuracy of the predictions. 
 
-My implementation had a test accuracy of about 69 percent.
+My implementation had a test accuracy of about ~70 percent.
 
 ## Implementation details
 
