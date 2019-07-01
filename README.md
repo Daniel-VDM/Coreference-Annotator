@@ -6,13 +6,13 @@
 
 ## How it works
 
-The script takes in a `.csv` file that is formatted as follows (columns separated by '\t' characters):
+The script takes in a `.tsv` file that is formatted as follows (columns separated by '\t' characters):
 
 <p align="center">
   <img src="img/dataFmtIn.png" width="500">
 </p>
 
-The `.csv` file is converted into a Pandas dataframe before it is passed into the antecedent predictor. Note that the antecedent predictor makes a coreference prediction for each word that has a part of speech tag of `PRP` or `$PRP`. Also, note that the antecedent prediction is a mention id and that each prediction is stored in its `mention_ids` column of each pronoun in the said dataframe. Once all of the pronouns have their predicted antecedents, the dataframe is then converted back to a `.csv` file and outputted. 
+The `.tsv` file is converted into a Pandas dataframe before it is passed into the antecedent predictor. Note that the antecedent predictor makes a coreference prediction for each word that has a part of speech tag of `PRP` or `$PRP`. Also, note that the antecedent prediction is a mention id and that each prediction is stored in its `mention_ids` column of each pronoun in the said dataframe. Once all of the pronouns have their predicted antecedents, the dataframe is then converted back to a `.tsv` file and outputted. 
 
 ### Input formatting
 * The input file must be named `test.coref.data.txt` and must have the format mention above.
